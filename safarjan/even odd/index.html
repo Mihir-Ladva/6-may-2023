@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      
+</head>
+<body>
+    <input type="number" id="display">
+    <h3 id="ans">:)</h3>
+    <button onclick="check()">test</button>
+    <script>
+        function check(){
+            var value=document.getElementById('display').value;
+            if(value % 2 == 0){
+                document.getElementById('ans').innerHTML="even"
+            }
+            else{
+                document.getElementById('ans').innerHTML="odd"
+            }
+        }
+    </script>
+</body>
+</html>
